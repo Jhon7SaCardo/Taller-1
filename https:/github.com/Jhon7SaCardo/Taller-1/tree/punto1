@@ -1,0 +1,26 @@
+Proceso InfoPersonal
+	
+	Definir nombres Como Caracter;
+	Definir apellidos Como Caracter;
+	Definir edad Como Entero;
+	Definir estatura Como Real;
+	
+	Escribir "Cu�l es su nombre(s)?";
+	leer nombres;
+	
+	Escribir "Cu�les son sus apellidos?";
+	Leer apellidos;
+	
+	Escribir "Cu�l es su edad?";
+	Leer edad;
+	
+	Escribir "Cu�l es su estatura en metros?";
+	Leer estatura;
+	
+	Limpiar Pantalla;
+	
+	Escribir "Mi nombre completo es: ", nombres, " ", apellidos, ",";
+	Escribir "tengo ", edad, " a�os,";
+	Escribir "y mido ", estatura, " metros";
+	Escribir "";
+FinProceso
